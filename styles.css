@@ -8,16 +8,17 @@
 
 body {
   font-family: system-ui, calibri, sans-serif;
-  display: grid;
-  grid-template-columns: 250px 2.5fr;
-  margin: 1rem;
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
-  height: fit-content;
-  margin: 0.5rem 0;
+  height: 250px;
+  width: 250px;
+  margin: 0.5rem;
 }
 
 a {
@@ -30,6 +31,8 @@ a {
 }
 
 main {
+  position: absolute;
+  margin-left: 258px;
   border-left: 1px solid black;
   max-width: 600px;
 }
@@ -66,7 +69,8 @@ code {
   }
 
   nav {
-    margin: 1rem;
+    position: absolute;
+    top: 0;
   }
 
   a {
@@ -81,5 +85,6 @@ code {
   main {
     margin: 1rem;
     border: none;
+    margin-top: 250px;
   }
 }
