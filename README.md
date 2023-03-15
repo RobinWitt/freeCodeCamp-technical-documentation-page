@@ -1,3 +1,3 @@
 # freeCodeCamp Challenge
 
-## Build a technical documentation page
+## Responsive Web Design - Certification 3/5 - building a Technical Documentation Page
